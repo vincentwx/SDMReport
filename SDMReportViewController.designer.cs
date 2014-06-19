@@ -22,9 +22,13 @@ namespace SDMReport
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextField c_userName { get; set; }
 
-		[Action ("OnUpInside:")]
+		[Action ("OnSignIn:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void OnSign (UIButton sender);
+		partial void OnSignIn (UIButton sender);
+
+		[Action ("OnSignUp:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void OnSignUp (UIButton sender);
 
 		void ReleaseDesignerOutlets ()
 		{

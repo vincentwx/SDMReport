@@ -54,7 +54,7 @@ namespace SDMReport
 		}
 
 		#endregion
-		async partial void OnSign (UIButton sender)
+		async partial void OnSignIn (UIButton sender)
 		{
 			LoginRequest req = new LoginRequest();
 
@@ -85,6 +85,11 @@ namespace SDMReport
 			}
 
 		}
+		async partial void OnSignUp (UIButton sender)
+		{
+
+		}
+
 	}
 }
 
