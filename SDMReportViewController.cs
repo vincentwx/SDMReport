@@ -85,7 +85,7 @@ namespace SDMReport
 			}
 
 		}
-		async partial void OnSignUp (UIButton sender)
+		partial void OnSignUp (UIButton sender)
 		{
 
 		}
